@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your Frontend Mentor solution URL](#)
-- Live Site URL: [Add your live site URL](#)
+- Solution URL: (https://github.com/nunush65/browser-extensions-manager)
+- Live Site URL:(https://browser-extensions-manager-liart.vercel.app)
 
 ## My Process
 
