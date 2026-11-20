@@ -1,0 +1,49 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Browser Extensions Manager</title>
+        <link href="./src/output.css" rel="stylesheet" />
+        <script src="./script.js" defer></script>
+    </head>
+
+    <body class="min-h-screen bg-[#091540] px-4 py-6 text-white sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-6xl">
+            <header
+                class="mx-auto mb-8 flex max-w-6xl items-center justify-between rounded-xl border border-[#343a4b] bg-[#1f2535] p-3"
+            >
+                <img src="./assets/images/logo-dark.svg" alt="Extensions Manager" class="w-44" />
+
+                <button
+                    id="theme-toggle"
+                    class="flex h-11 w-11 items-center justify-center rounded-xl bg-[#343a4b] transition hover:bg-[#525a70] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f15b4a] focus-visible:ring-offset-2 focus-visible:ring-offset-[#091540]"
+                >
+                    <img
+                        id="theme-icon"
+                        src="./assets/images/icon-sun.svg"
+                        alt="Switch to light theme"
+                        class="h-5 w-5"
+                    />
+                </button>
+            </header>
+
+            <main>
+                <section class="mb-6 flex flex-col items-center justify-between gap-4 sm:flex-row">
+                    <h1 class="text-2xl font-bold">Extensions List</h1>
+
+                    <div class="flex gap-2">
+                        <button id="filter-all" class="filter-btn selected focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f15b4a] focus-visible:ring-offset-2 focus-visible:ring-offset-[#091540]">All</button>
+                        <button id="filter-active" class="filter-btn focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f15b4a] focus-visible:ring-offset-2 focus-visible:ring-offset-[#091540]">Active</button>
+                        <button id="filter-inactive" class="filter-btn focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f15b4a] focus-visible:ring-offset-2 focus-visible:ring-offset-[#091540] ...">Inactive</button>
+                    </div>
+                </section>
+
+                <section
+                    id="display"
+                    class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3"
+                ></section>
+            </main>
+        </div>
+    </body>
+</html>

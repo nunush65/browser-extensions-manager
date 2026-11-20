@@ -1,0 +1,115 @@
+@import "tailwindcss";
+body.light-theme {
+    background-color: #f4f6fa !important;
+    color: #091540 !important;
+}
+
+body.light-theme header {
+    background-color: #ffffff;
+    border-color: #d6dbe5;
+}
+body.light-theme #display > div {
+    background-color: #ffffff;
+    border-color: #d6dbe5;
+    color: #091540;
+}
+
+body.light-theme #display p {
+    color: #525a70;
+}
+
+body.light-theme #filter-all,
+body.light-theme #filter-active,
+body.light-theme #filter-inactive {
+    background-color: #ffffff;
+    color: #091540;
+    border-color: #d6dbe5;
+}
+
+body.light-theme #theme-toggle {
+    background-color: #e2e6ef;
+}
+
+body.light-theme #theme-toggle:hover {
+    background-color: #cbd2df;
+}
+.filter-btn {
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #525a70;
+    background-color: #292f40;
+    color: white;
+}
+
+.filter-btn {
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #525a70;
+    background-color: #292f40;
+    color: white;
+}
+
+.filter-btn.selected {
+    background-color: #f15b4a !important;
+    color: #091540 !important;
+    border-color: #f15b4a !important;
+}
+
+body.light-theme .filter-btn {
+    background-color: white;
+    color: #091540;
+    border-color: #d6dbe5;
+}
+
+body.light-theme .filter-btn.selected {
+    background-color: #f15b4a !important;
+    color: #091540 !important;
+    border-color: #f15b4a !important;
+}
+body.light-theme .filter-btn:focus-visible {
+    outline: 2px solid #f15b4a;
+    outline-offset: 2px;
+}
+body.light-theme .filter-btn.selected {
+    background-color: #f15b4a;
+    color: #091540;
+    border-color: #f15b4a;
+}
+.filter-btn:focus {         
+    outline: none;
+    box-shadow: none;
+}
+
+.filter-btn:focus-visible {
+    outline: 2px solid #f15b4a;
+    outline-offset: 3px;
+}
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    --tw-ring-shadow: 0 0 #0000 !important;
+}
+
+button:focus-visible {
+    outline: 2px solid #f15b4a !important;
+    outline-offset: 3px;
+}
+#theme-toggle:focus-visible {
+    outline: 2px solid #f15b4a !important;
+    outline-offset: 3px;
+}
+
+body.light-theme button#theme-toggle:focus-visible {
+    outline: 2px solid #f15b4a !important;
+    outline-offset: 3px !important;
+    box-shadow: none !important;
+}
+button#theme-toggle:focus-visible {
+    outline: 2px solid #f15b4a !important;
+    outline-offset: 3px !important;
+}
+body.light-theme #theme-toggle:focus-visible {
+    outline: 2px solid #f15b4a !important;
+    outline-offset: 3px !important;
+    box-shadow: none !important;
+}
